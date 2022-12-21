@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/builder 5/pom.xml" />
+        <option value="$PROJECT_DIR$/iterator 4/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype 6/pom.xml" />
+        <option value="$PROJECT_DIR$/practica calc/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/bmiCalcSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/factory 2, abstract 1/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="corretto-18" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

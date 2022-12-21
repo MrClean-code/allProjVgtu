@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.paint.Color?>
+<VBox alignment="CENTER" prefHeight="323.0" prefWidth="382.0" spacing="40.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Выберите фигуру "/>
+    <Canvas fx:id="canvas" height="261.0" onMousePressed="#addShape" width="400.0"/>
+    <ListView fx:id="listView" prefHeight="300.0" prefWidth="200.0"/>
+
+    <HBox>
+        <Label text="Введите размер фигуры: "/>
+        <TextField fx:id="textField1"></TextField>
+
+        <TextField fx:id="textField2"></TextField>
+        <Button onAction="#initialize">Указать размер</Button>
+    </HBox>
+
+    <HBox>
+        <Label text="Введите цвет фигуры: "/>
+        <ColorPicker fx:id="colorPicker">
+            <value>
+                <Color red="0.1" green="0.1" blue="0.1"/>
+            </value>
+        </ColorPicker>
+    </HBox>
+
+    <Button mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="81.0" text="Очистить">
+        <HBox.margin>
+            <Insets left="50.0"/>
+        </HBox.margin>
+    </Button>
+</VBox>

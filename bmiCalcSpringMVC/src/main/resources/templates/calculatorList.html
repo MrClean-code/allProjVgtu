@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="..." method="">
+        <tr>
+            <Td><Label for="listCalc" id="listCalc" class="textfield" >Answer </label></Td>
+            <Td>
+                <div th:each="calc : ${bmi}">
+                    <p>
+                        <br>
+                         Result: <span th:text="${calc}">user</span>;
+                        <br>
+                    </p>
+                </div>
+            </Td>
+            <td>
+                <a href="/bmi/new">New Calculator</a>
+            </td>
+        </tr>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/prototype 6/Fabric.iml" filepath="$PROJECT_DIR$/prototype 6/Fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmiCalcSpringMVC/Pract3.iml" filepath="$PROJECT_DIR$/bmiCalcSpringMVC/Pract3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory 2, abstract 1/Task2.iml" filepath="$PROJECT_DIR$/factory 2, abstract 1/Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/builder 5/builder.iml" filepath="$PROJECT_DIR$/builder 5/builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica calc/demo/demo.iml" filepath="$PROJECT_DIR$/practica calc/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iterator 4/demo6.iml" filepath="$PROJECT_DIR$/iterator 4/demo6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/intJava.iml" filepath="$PROJECT_DIR$/.idea/intJava.iml" />
+    </modules>
+  </component>
+</project>
